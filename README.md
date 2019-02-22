@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/laurentzziu/callable_class.svg?branch=master)](https://travis-ci.org/laurentzziu/callable_class)
+
 # CallableClass
 
-CallableClass is an "alias" for `Klass.new(args).call`. 
+CallableClass is an "alias" for `Klass.new(args).call`.
 So instead of that, just call `Klass.call(args)`.
 The classes `extending` this module need to implement the `call` instance method.
 
