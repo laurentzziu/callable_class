@@ -1,5 +1,13 @@
-require "callable_class/version"
+require 'callable_class/version'
 
 module CallableClass
-  # Your code goes here...
+  def self.included(base)
+    base.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def call(*args)
+      new(*args).call
+    end
+  end
 end
