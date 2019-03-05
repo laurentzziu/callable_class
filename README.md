@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/laurentzziu/callable_class.svg?branch=master)](https://travis-ci.org/laurentzziu/callable_class)
+[![Gem Version](https://badge.fury.io/rb/callable_class.svg)](https://rubygems.org/gems/callable_class)
 
 # CallableClass
 
