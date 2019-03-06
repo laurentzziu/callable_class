@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/laurentzziu/callable_class.svg?branch=master)](https://travis-ci.org/laurentzziu/callable_class)
 [![Gem Version](https://badge.fury.io/rb/callable_class.svg)](https://rubygems.org/gems/callable_class)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2b822e7586dae7602550/maintainability)](https://codeclimate.com/github/laurentzziu/callable_class/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2b822e7586dae7602550/test_coverage)](https://codeclimate.com/github/laurentzziu/callable_class/test_coverage)
 
 # CallableClass
 

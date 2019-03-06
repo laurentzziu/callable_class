@@ -9,11 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Florinel Gorgan']
   spec.email         = ['florin@floringorgan.com']
 
-  spec.summary       = %q(Class method to instantiate and call a class.)
-  spec.description   = %q(Class method to instantiate and call a class.)
+  spec.summary       = 'Class method to instantiate and call a class.'
+  spec.description   = 'Class method to instantiate and call a class.'
   spec.homepage      = 'https://github.com/laurentzziu/callable_class'
   spec.license       = 'MIT'
-
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
@@ -25,6 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'simplecov-console'
   spec.add_development_dependency 'simplecov'
+  spec.add_development_dependency 'simplecov-console'
 end

@@ -1,4 +1,6 @@
 plugins:
+  rubymotion:
+    enabled: true
   rubocop:
     enabled: true
     config:
