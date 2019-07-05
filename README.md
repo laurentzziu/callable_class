@@ -29,7 +29,7 @@ Or install it yourself as:
 
 ```ruby
 class Klass
-    extend CallableClass #this gives you acces to class method .call
+    include CallableClass #this gives you acces to class method .call
     ...
 end
 ```
